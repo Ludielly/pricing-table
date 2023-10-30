@@ -1,0 +1,23 @@
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 270px;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: .95rem;
+}
+
+.info span {
+    flex: 1;
+}
+
+.info svg {
+    margin: 0 5px;
+}
+
+.info-icon:hover {
+    opacity: .7;
+    cursor: pointer;
+}

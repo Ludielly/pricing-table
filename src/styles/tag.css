@@ -1,0 +1,12 @@
+.tag {
+    display: inline-block;
+    position: absolute;
+    top: -16px;
+    text-transform: uppercase;
+    font-weight: var(--font-bolder);
+    font-size: .8rem;
+    background-color: var(--orange);
+    color: var(--gray-800);
+    padding: 10px 20px;
+    border-radius: 6px;
+}

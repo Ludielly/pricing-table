@@ -1,0 +1,11 @@
+.subtitle {
+    color: var(--purple-200);
+    text-transform: uppercase;
+    font-weight: var(--font-bold);
+    font-size: .75rem;
+    letter-spacing: .85px;
+}
+
+.subtitle.dark-mode {
+    color: var(--purple-100);
+}

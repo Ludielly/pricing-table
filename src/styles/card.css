@@ -1,0 +1,24 @@
+.card {
+    position: relative;
+    width: 300px;
+    padding: 35px 20px;
+    height: 350px;
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px;
+    box-shadow: 0 0 10px 5px var(--gray-300);
+}
+
+.dark-mode {
+    background-color: var(--gray-900);
+    color: var(--white);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid var(--gray-300);
+    width: 255px;
+}
